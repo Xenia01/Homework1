@@ -1,0 +1,56 @@
+.page {
+  width: 900px;
+  margin: 0 auto;
+  /* border: 1px solid red;  Add this */
+  overflow: hidden;
+  background-color: #EAEDF0;
+}
+.container {
+  overflow: hidden;
+  background-color: #EAEDF0;
+}
+.menu {
+  height: 100px;
+  background-color: #B2D6FF;    /* Medium blue */
+}
+  
+.sidebar {
+  height: 300px;
+  background-color: #F09A9D;    /* Red */
+  width: 200px;                
+  float: left;                  
+}
+      
+.content {
+  float: left;
+  padding: 20px;
+  width: 650px;
+  height: 500px;
+  background-color: #F5CF8E;    /* Yellow */
+}
+.article-image {
+  float: left;
+  width: 160px;
+  height: 220px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 2px solid orange;
+  border-radius: 20px;
+}
+.p {
+  margin-bottom: 70px;
+}
+}    
+.footer {
+  clear: both;
+  height: 200px;
+  overflow: hidden;
+  background-color: #D6E9FE;    /* Light blue */
+}
+.column {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #B2D6FF;    /* Medium blue */
+}
